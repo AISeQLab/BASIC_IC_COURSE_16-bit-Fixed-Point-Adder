@@ -29,6 +29,11 @@ The hardware result shows successful fixed-point addition through UART communica
 
 ![Result](result.png)
 
+## Video Tutorial
+A full step-by-step demonstration of this project can be viewed here:  
+[Watch on YouTube](https://www.youtube.com/watch?v=jIIxNY51ZpQ)
+
+
 ## Author
 Pham Hoai Luan  
 Nara Institute of Science and Technology (NAIST), Japan
