@@ -1,10 +1,7 @@
 # BASIC_IC_COURSE_16-bit-Fixed-Point-Adder
 
 ## Introduction
-This project implements a 16-bit fixed-point adder in Verilog and runs on the ZCU102 FPGA board. The fixed-point format is defined as 1-bit sign, 8-bit integer, and 7-bit fractional.
-
-## Overview
-The module performs addition between two signed 16-bit fixed-point numbers and outputs the 16-bit result. The fractional precision is preserved, and basic overflow handling is included.
+This project implements a 16-bit fixed-point adder in Verilog HDL and runs on the ZCU102 FPGA board. The fixed-point format is defined as 1-bit sign, 8-bit integer, and 7-bit fractional.
 
 ## Design Summary
 - Input: two 16-bit signed fixed-point numbers (1 sign, 8 integer, 7 fractional)
@@ -12,11 +9,25 @@ The module performs addition between two signed 16-bit fixed-point numbers and o
 - Target Device: Xilinx ZCU102 FPGA
 - Language: Verilog
 
-## How to Use
-1. Open the project in Vivado.
-2. Synthesize and implement the design for the ZCU102 board.
-3. Program the FPGA and run the provided testbench.
-4. Observe results in the host PC's terminal using the UART.
+## Local Setup
+The local setup shows the physical connection between the ZCU102 FPGA, host PC, and monitor in a standard laboratory environment.
+
+![Local Setup](local_setup.png)
+
+## Remote Setup
+The remote setup allows students to access and control the FPGA board through UltraViewer or AnyDesk. It enables remote learning and real-time observation of FPGA operation.
+
+![Remote Setup](remote_setup.png)
+
+## System Setup
+The experiment setup allows students to control and observe the FPGA remotely. The figure below shows the system connection between the student laptop, host PC, and ZCU102 FPGA.
+
+![System Setup](setup.png)
+
+## Operation Result
+The hardware result shows successful fixed-point addition through UART communication between the PC and the FPGA. The output demonstrates correct encoding and decoding of 16-bit fixed-point values.
+
+![Result](result.png)
 
 ## Author
 Pham Hoai Luan  
