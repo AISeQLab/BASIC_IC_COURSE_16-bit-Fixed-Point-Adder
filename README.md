@@ -1,6 +1,6 @@
 # BASIC_IC_COURSE_16-bit-Fixed-Point-Adder
 
-## Introduction
+### Introduction
 This project implements a 16-bit fixed-point adder in Verilog HDL and runs on the ZCU102 FPGA board. The fixed-point format is defined as 1-bit sign, 8-bit integer, and 7-bit fractional.
 
 ## Design Summary
