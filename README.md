@@ -30,6 +30,7 @@ A full step-by-step demonstration of this project can be viewed here:
   <img src="https://img.youtube.com/vi/jIIxNY51ZpQ/0.jpg" alt="Watch the video" width="700">
 </a>
 
+https://www.youtube.com/watch?v=jIIxNY51ZpQ
 
 ### Author
 Pham Hoai Luan  
