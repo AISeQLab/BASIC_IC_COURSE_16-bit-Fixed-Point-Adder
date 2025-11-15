@@ -12,12 +12,12 @@ This project implements a 16-bit fixed-point adder in Verilog HDL and runs on th
 ### Local Setup
 The local setup shows the physical connection between the ZCU102 FPGA, host PC, and monitor in a standard laboratory environment.
 
-![Local Setup](Figure/local_setup.png)
+<img src="Figure/local_setup.png" alt="Local Setup" width="500">
 
 ### Remote Setup
 The remote setup allows students to access and control the FPGA board through UltraViewer or AnyDesk. It enables remote learning and real-time observation of FPGA operation.
 
-![Remote Setup](Figure/remote_setup.png)
+<img src="Figure/remote_setup.png" alt="Local Setup" width="500">
 
 ### Operation Result
 The hardware result shows successful fixed-point addition through UART communication between the PC and the FPGA. The output demonstrates correct encoding and decoding of 16-bit fixed-point values.
