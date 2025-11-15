@@ -19,11 +19,6 @@ The remote setup allows students to access and control the FPGA board through Ul
 
 ![Remote Setup](remote_setup.png)
 
-## System Setup
-The experiment setup allows students to control and observe the FPGA remotely. The figure below shows the system connection between the student laptop, host PC, and ZCU102 FPGA.
-
-![System Setup](setup.png)
-
 ## Operation Result
 The hardware result shows successful fixed-point addition through UART communication between the PC and the FPGA. The output demonstrates correct encoding and decoding of 16-bit fixed-point values.
 
